@@ -3,10 +3,10 @@ class User {
         this.email = email;
         this.name = name;
     }
-    login(){
+    login() {
         console.log(this.email, 'just logged in');
     }
-    logout(){
+    logout() {
         console.log(this.email, 'just logged out');
 
     }
