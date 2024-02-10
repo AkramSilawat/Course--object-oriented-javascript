@@ -9,7 +9,29 @@ var userOne = {
     }
 };
 
+// == Multiply Object Properties same
 
+var userTwo = {
+    email: 'ryu@ninjas.com',
+    name: 'ryu',
+    login() {
+        console.log(this.email, 'has logged in');
+    },
+    logout() {
+        console.log(this.email, 'has logged out');
+    }
+};
+
+var userThree = {
+    email: 'ryu@ninjas.com',
+    name: 'ryu',
+    login() {
+        console.log(this.email, 'has logged in');
+    },
+    logout() {
+        console.log(this.email, 'has logged out');
+    }
+};
 
 // -----------------------------------------
 
